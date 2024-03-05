@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.card {
+    width: 500px;
+    /*if width gets less than 500px than new width will always be 90% of parent*/
+    max-width: 90%;
+    min-height: 300px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #1d1d1d;
+    margin-top: 6rem;
+}
+
+.invite {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #c4c5c5;
+}
+
+.heading {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #c4c5c5;
+    margin-bottom: 30px;
+}

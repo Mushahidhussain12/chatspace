@@ -1,0 +1,86 @@
+.main {
+    margin-top: 4rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.buttons {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    background: #262626;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.avatar {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #0077ff;
+}
+
+.input {
+    display: none;
+}
+
+.avatarImg {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.paragraph {
+    font-size: small;
+    color: #c4c5c5;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.paragraph:hover {
+    color: rgb(144, 144, 189);
+    text-decoration: underline;
+}
+
+.sub {
+    color: #C4C5C5;
+    text-align: center;
+}
+
+.Singlebutton {
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #0077ff;
+}
